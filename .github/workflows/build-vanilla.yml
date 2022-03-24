@@ -33,5 +33,5 @@ jobs:
           platforms: linux/386,linux/amd64,linux/arm/v7,linux/arm64,linux/ppc64le
           push: true
           tags: |
-            ryshe/terraria:vanilla-latest
-            ryshe/terraria:${{ steps.get_version.outputs.VERSION }}
+            crnlabs/terraria:vanilla-latest
+            crnlabs/terraria:${{ steps.get_version.outputs.VERSION }}
